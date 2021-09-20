@@ -27,7 +27,7 @@ Use code coverage to find untested code and a problem with the tests.
 
 6. Run coverage again with the `--branch` option to see if all branches of "if" statements are covered:
    ```bash
-   coverage run --branch -m unittest triange_test.py
+   coverage run --branch -m unittest triangle_test.py
    coverage html
    ```
 
@@ -87,7 +87,7 @@ class TriangleTest(unittest.TestCase):
 
 On most systems you install it using "pip" or "pip3": 
 ```bash
-pip3 install coverage`
+pip3 install coverage
 ```
 
 For more info, see the [Coverage Documentation](https://coverage.readthedocs.io/en/coverage-5.5/).
