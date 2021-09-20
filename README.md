@@ -13,7 +13,7 @@ Use code coverage to find untested code and a problem with the tests.
 
 2. Run the tests using code coverage, then generate an html coverage report:
    ```bash
-   coverage run -m unittest triange_test.py
+   coverage run -m unittest triangle_test.py
    coverage html
    ```
 
